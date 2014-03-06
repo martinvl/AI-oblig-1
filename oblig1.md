@@ -43,6 +43,9 @@ The result will be a tree where level _i_ represents the coloring of region _i_,
 
 Search the tree for a path from the root to any leaf node where _f_ is true for all nodes in the path. In order to find the lowest possible number of colors all such paths must be expanded.
 
+### b)
+![](tree.png)
+
 ### c)
 DFS. Same time complexity as BFS (since the solution is a leaf node), but much lower memory footprint. Uniform cost, depth limited and bi-directional search don't really apply in this situation.
 
